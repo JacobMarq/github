@@ -5,7 +5,7 @@ require_relative '../api'
 module Github
   class Client::Users < API
     # Load all the modules after initializing Repos to avoid superclass mismatch
-    require_all 'github_api/client/users',
+    require_all 'github_api2/client/users',
       'emails',
       'followers',
       'keys'

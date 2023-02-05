@@ -5,7 +5,7 @@ require_relative '../api'
 module Github
   class Client::Gists < API
 
-    require_all 'github_api/client/gists', 'comments'
+    require_all 'github_api2/client/gists', 'comments'
 
     # Access to Gists::Comments API
     namespace :comments

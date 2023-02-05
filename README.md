@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="http://piotrmurach.github.io/github/"><img width="136" src="https://github.com/piotrmurach/github/raw/master/icons/github_api.png" alt="github api logo" /></a>
+  <a href="http://piotrmurach.github.io/github/"><img width="136" src="https://github.com/jacobmarq/github/raw/master/icons/github_api2.png" alt="github api logo" /></a>
 </div>
 
 # GithubAPI [![Gitter](https://badges.gitter.im/Join%20Chat.svg)][gitter]
@@ -43,13 +43,13 @@ Supports all the API methods. It's built in a modular way. You can either instan
 Install the gem by running
 
 ```ruby
-gem install github_api
+gem install github_api2
 ```
 
 or put it in your Gemfile and run `bundle install`
 
 ```ruby
-gem "github_api"
+gem "github_api2"
 ```
 
 ## Contents

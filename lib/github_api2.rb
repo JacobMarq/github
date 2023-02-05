@@ -3,10 +3,10 @@
 require 'pp' if ENV['DEBUG']
 
 require 'faraday'
-require_relative 'github_api/ext/faraday'
+require_relative 'github_api2/ext/faraday'
 
 module Github
-  LIBNAME = 'github_api'
+  LIBNAME = 'github_api2'
 
   LIBDIR = File.expand_path("../#{LIBNAME}", __FILE__)
 
@@ -82,11 +82,11 @@ module Github
   end
 end # Github
 
-require_relative 'github_api/api'
-require_relative 'github_api/client'
-require_relative 'github_api/configuration'
-require_relative 'github_api/deprecation'
-require_relative 'github_api/core_ext/array'
-require_relative 'github_api/core_ext/hash'
-require_relative 'github_api/middleware'
-require_relative 'github_api/version'
+require_relative 'github_api2/api'
+require_relative 'github_api2/client'
+require_relative 'github_api2/configuration'
+require_relative 'github_api2/deprecation'
+require_relative 'github_api2/core_ext/array'
+require_relative 'github_api2/core_ext/hash'
+require_relative 'github_api2/middleware'
+require_relative 'github_api2/version'

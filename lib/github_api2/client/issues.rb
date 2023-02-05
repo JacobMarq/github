@@ -5,7 +5,7 @@ require_relative '../api'
 module Github
   class Client::Issues < API
 
-    require_all 'github_api/client/issues',
+    require_all 'github_api2/client/issues',
       'assignees',
       'comments',
       'events',

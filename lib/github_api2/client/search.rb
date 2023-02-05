@@ -10,7 +10,7 @@ module Github
   class Client::Search < API
     include Github::Utils::Url
 
-    require_all 'github_api/client/search', 'legacy'
+    require_all 'github_api2/client/search', 'legacy'
 
     # Access to Search::Legacy API
     namespace :legacy

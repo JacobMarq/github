@@ -4,7 +4,7 @@ require_relative 'api'
 
 module Github
   class Client < API
-    require_all 'github_api/client',
+    require_all 'github_api2/client',
                 'activity',
                 'authorizations',
                 'emojis',

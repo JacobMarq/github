@@ -5,7 +5,7 @@ require_relative '../api'
 module Github
   class Client::PullRequests < API
 
-    require_all 'github_api/client/pull_requests', 'comments', 'reviews'
+    require_all 'github_api2/client/pull_requests', 'comments', 'reviews'
 
     # Access to PullRequests::Comments API
     namespace :comments

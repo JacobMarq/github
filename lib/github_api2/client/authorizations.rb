@@ -6,7 +6,7 @@ module Github
   # OAuth Authorizations API
   class Client::Authorizations < API
 
-    require_all 'github_api/client/authorizations', 'app'
+    require_all 'github_api2/client/authorizations', 'app'
 
     # Access to Authorizations::App API
     namespace :app

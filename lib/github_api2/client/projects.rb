@@ -8,7 +8,7 @@ module Github
   class Client::Projects < API
     PREVIEW_MEDIA = "application/vnd.github.inertia-preview+json" # :nodoc:
 
-    require_all 'github_api/client/projects',
+    require_all 'github_api2/client/projects',
                 'columns',
                 'cards'
 
