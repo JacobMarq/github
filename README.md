@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="http://piotrmurach.github.io/github/"><img width="136" src="https://github.com/jacobmarq/github/raw/master/icons/github_api2.png" alt="github api logo" /></a>
+  <a href="http://piotrmurach.github.io/github/"><img width="136" src="https://github.com/jacobmarq/github/raw/master/icons/github_api.png" alt="github api logo" /></a>
 </div>
 
 # GithubAPI [![Gitter](https://badges.gitter.im/Join%20Chat.svg)][gitter]
@@ -22,6 +22,8 @@
 A Ruby client for the official GitHub API.
 
 Supports all the API methods. It's built in a modular way. You can either instantiate the whole API wrapper Github.new or use parts of it i.e. Github::Client::Repos.new if working solely with repositories is your main concern. Intuitive query methods allow you easily call API endpoints.
+
+This version of the github_api is only meant to continue support for Oauth2.x
 
 ## Features
 
