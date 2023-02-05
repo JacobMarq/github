@@ -2,7 +2,7 @@
 
 require 'faraday'
 require 'hashie'
-require 'github_api/mash'
+require 'github_api2/mash'
 
 module Github
   class Response::Mashify < Response

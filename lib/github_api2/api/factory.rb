@@ -1,6 +1,6 @@
 # encoding: utf-8
 
-require 'github_api/core_ext/hash'
+require 'github_api2/core_ext/hash'
 
 module Github
   class API

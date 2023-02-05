@@ -1,7 +1,7 @@
 # encoding: utf-8
 
 require 'spec_helper'
-require 'github_api/core_ext/hash'
+require 'github_api2/core_ext/hash'
 
 describe Github::Normalizer, '#normalize!' do
   let(:hash) { { 'a' => { :b => { 'c' => 1 }, 'd' => [ 'a', { :e => 2 }] } } }

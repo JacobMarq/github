@@ -5,7 +5,7 @@ require_relative '../api'
 module Github
   class Client::GitData < API
 
-    require_all 'github_api/client/git_data',
+    require_all 'github_api2/client/git_data',
       'blobs',
       'commits',
       'references',

@@ -1,7 +1,7 @@
 # encoding: utf-8
 
 require 'spec_helper'
-require 'github_api/page_links'
+require 'github_api2/page_links'
 
 describe Github::PageLinks do
   let(:link) {

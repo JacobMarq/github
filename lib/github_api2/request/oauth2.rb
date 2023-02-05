@@ -1,6 +1,7 @@
 # encoding: utf-8
 
 require 'faraday'
+require 'oauth2'
 
 require_relative '../utils/url'
 
@@ -12,7 +13,7 @@ module Github
       ACCESS_TOKEN = 'access_token'.freeze
       AUTH_HEADER  = 'Authorization'.freeze
 
-      dependency 'oauth2'
+      # dependency 'oauth2'
 
       def call(env)
         # Extract parameters from the query

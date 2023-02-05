@@ -4,7 +4,7 @@ require_relative '../../api'
 
 module Github
   class Client::Repos::Branches < API
-    require_all 'github_api/client/repos/branches', 'protections'
+    require_all 'github_api2/client/repos/branches', 'protections'
 
     # Access to Repos::Branches::Protections API
     namespace :protections

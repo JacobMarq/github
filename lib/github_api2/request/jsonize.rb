@@ -8,7 +8,7 @@ module Github
     CONTENT_TYPE = 'Content-Type'.freeze
     MIME_TYPE    = 'application/json'.freeze
 
-    dependency 'multi_json'
+    # dependency 'multi_json'
 
     def call(env)
       if request_with_body?(env)

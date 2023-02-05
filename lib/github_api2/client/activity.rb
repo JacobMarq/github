@@ -5,7 +5,7 @@ require_relative '../api'
 module Github
   class Client::Activity < API
 
-    require_all 'github_api/client/activity',
+    require_all 'github_api2/client/activity',
       'events',
       'notifications',
       'feeds',

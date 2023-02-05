@@ -1,7 +1,7 @@
 # encoding: utf-8
 
 require 'spec_helper'
-require 'github_api/mash'
+require 'github_api2/mash'
 
 describe Github::Mash do
   it 'suppresses warnings for key/method conflict' do

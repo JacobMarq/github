@@ -6,7 +6,7 @@ module Github
   # The Releases API
   class Client::Repos::Releases < API
 
-    require_all 'github_api/client/repos/releases', 'assets', 'tags'
+    require_all 'github_api2/client/repos/releases', 'assets', 'tags'
 
     # Access to Repos::Releases::Assets API
     namespace :assets

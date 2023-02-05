@@ -1,15 +1,15 @@
 # encoding: utf-8
 
 require 'faraday'
-require 'json'
+require 'nokogiri'
 
 module Github
-  class Response::Jsonize < Response
+  class Response::Xmlize < Response
 
-    dependency 'json'
+    # dependency 'nokogiri'
 
     define_parser do |body|
-      JSON.parse(body)
+      ::Nokogiri::XML body
     end
 
     def parse(body)
@@ -24,5 +24,5 @@ module Github
         self.class.parser.call(body)
       end
     end
-  end # Response::Jsonize
+  end # Response::Xmlize
 end # Github

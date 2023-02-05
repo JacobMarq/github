@@ -6,7 +6,7 @@ require 'base64'
 module Github
   class Request
     class BasicAuth < Faraday::Middleware
-      dependency 'base64'
+      # dependency 'base64'
 
       # @api private
       def initialize(app, *args)
