@@ -4,14 +4,12 @@
 
 # GithubAPI [![Gitter](https://badges.gitter.im/Join%20Chat.svg)][gitter]
 
-[![Gem Version](https://badge.fury.io/rb/github_api.svg)][gem]
 [![Build Status](https://secure.travis-ci.org/piotrmurach/github.svg?branch=master)][travis]
 [![Maintainability](https://api.codeclimate.com/v1/badges/7dc798db81a62774f99b/maintainability)][codeclimate]
 [![Coverage Status](https://coveralls.io/repos/piotrmurach/github/badge.svg?branch=master)][coverage]
 [![Inline docs](http://inch-ci.org/github/piotrmurach/github.svg)][inchpages]
 
 [gitter]: https://gitter.im/piotrmurach/github_api
-[gem]: http://badge.fury.io/rb/github_api
 [travis]: http://travis-ci.org/piotrmurach/github
 [codeclimate]: https://codeclimate.com/github/piotrmurach/github/maintainability
 [coverage]: https://coveralls.io/r/piotrmurach/github
