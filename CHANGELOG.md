@@ -1,5 +1,18 @@
 # Change log
 
+## [v1.0.1] - 2023-02-05
+
+### Added
+* Add link to source code for rubygems.org
+
+### Changed
+* Change incorrect uris in readme
+
+## [v1.0.0] - 2023-02-05
+
+### Added
+* Add support for OAuth2 2.x
+
 ## [v0.19.0] - 2020-06-22
 
 ### Added
@@ -52,7 +65,7 @@
 * Change Normalizer to remove unnecessary branch condition (@samphilipd)
 
 ### Fixed
-* Fix ServiceError to account for non Hash type error message (@samphilipd)
+* Fix ServiceError ato account for non Hash type error message (@samphilipd)
 * Remove :content_type key from ParamsHash as clashes with reponse payload (@samphilipd)
 
 ## [v0.16.0] - 2017-04-02
