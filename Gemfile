@@ -5,7 +5,6 @@ gemspec
 # Rack 2.0.x doesn't work on < Ruby 2.2
 gem 'rack', '< 2.0'
 gem 'mime-types', '~> 3.0'
-gem 'faraday_middleware', '1.2.0'
 
 group :development do
   gem 'yard',     '~> 0.9.9'
